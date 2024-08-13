@@ -20,9 +20,9 @@ public class Main {
     public static void main(String[] args) {
         Product p = new Product();
         
-        System.out.println(p.product(2, 4));        // Output will be 8
-        System.out.println(p.product(2, 4, 6));     // Output will be 48
-        System.out.println(p.product(2.5, 4.6));    // Output will be 11.5
+        p.product(2, 4);// Output will be 8
+        p.product(2, 4, 6);     // Output will be 48
+        p.product(2.5, 4.6);    // Output will be 11.5
     }
   
 
